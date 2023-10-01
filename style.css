@@ -1,0 +1,317 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(219, 219, 219);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a {
+    margin: 30px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 650;
+}
+
+nav ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(219, 219, 219);
+    border-radius: 5px;
+}
+
+.logo{
+    font-family: fantasy;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo:hover{
+    font-family: fantasy;
+    background-color: rgb(0, 0, 0);
+    color: rgb(219, 219, 219);
+    border-radius: 5px;
+}
+
+#Home{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+}
+
+.Home p{ 
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+
+.Home p:nth-child(1){
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.Home p:nth-child(2){
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    letter-spacing: none;
+    font-size: 30px;
+}
+
+.Home p:nth-child(3){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(70, 69, 69);   
+    font-size: 30px;
+}
+
+.Home p:nth-child(4){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    font-size: 30px;
+    line-height: 30px;
+
+}
+
+.Home{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    transform: translate(10%,42%);
+}
+
+.picture{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 80%;
+    top: 20%;
+    transform: translate(-70%);
+}
+
+.about{
+    height: 55vh;
+    background-color: rgb(129, 127, 127);
+    padding: 2% 10% 10%; 
+}
+
+.about-desc{
+    margin: 50px 50px;
+}
+
+.about-desc p:nth-child(1){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-desc p:nth-child(2){
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(39, 39, 39);
+    text-align: center;
+}
+
+.about-desc p:nth-child(3){
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(39, 39, 39);
+    text-align: center;
+}
+
+.row{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+}
+
+.row .column h2{
+    text-align: center;
+}
+
+.row .column p{
+    text-align: justify;
+}
+
+.column{
+    flex: 50%;
+    padding: 30px;
+    height: 300px;
+}
+
+/* Skill */
+
+.skill{
+    height: 65vh;
+    background-color: fff;
+    padding: 2% 10% 10%;
+}
+
+.skill-desc{
+    margin: 50px 50px;
+}
+
+.skill-desc p:nth-child(1){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.skill-desc p:nth-child(2){
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+
+.box-container{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.box-1, .box-2 , .box-3{
+    width: 350px;
+    height: 350px;
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.box-1 span, .box-2 span, .box-3 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+}
+
+.box-1 p:nth-child(3), .box-2 p:nth-child(3), .box-3 p:nth-child(3){
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(83, 83, 83);
+    width: 250px;
+    margin: 0px 0px 50px 0px;
+}
+
+/* contact */
+.contact{
+    height: 75vh;
+    background-color: rgb(129, 127, 127);
+    padding: 2% 10% 10%; 
+}
+
+.contact-desc{
+    margin: 50px 50px;
+}
+
+.contact-desc p:nth-child(1){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.card-item{
+    text-align: center;
+    width: 25%;
+    min-height: 200px;
+    max-height: 300px;
+    padding: 24px;
+    color: #000000;
+}
+
+.card-tittle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-description{
+    font-size: 16px;
+}
+
+.mt-10{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box-4{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(155, 155, 155);
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.box-4:hover{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+
+.WA{
+    text-decoration: none;
+    color: black;
+}
+
+.WA:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* lanjutkan di menit ke 52 */
